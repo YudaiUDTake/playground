@@ -50,5 +50,5 @@ re.search(
     string='猫猫猫猫猫犬'
 ))
 
-# 行の先頭を表す
+# 行の先頭を表す ^  # 行の末尾を表す $
 print(re.search(pattern=r'^猫', string='猫犬兎'))
